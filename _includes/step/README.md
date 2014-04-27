@@ -1,1 +1,2 @@
-## STEPS
+{{ include step/step-name.md }}
+===============================
