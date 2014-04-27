@@ -18,10 +18,10 @@ logo:  /assets/logos/
 
 # EXTERNAL LINKS use {{site.???}}
 
-cms-org:  http://emoncms.org/site/home
-oemmain:  http://openenergymonitor.org/emon/
+cms:  http://emoncms.org/site/home
+oem:  http://openenergymonitor.org/emon/
 oemshop:  http://shop.openenergymonitor.com/
-oemforum: http://openenergymonitor.org/emon/forum
+forum: http://openenergymonitor.org/emon/forum
 rasp-img: http://downloads.raspberrypi.org/raspbian_latest
 #git:  https://github.com/emonhub
 git:  https://github.com/otherWIP/otherwip.github.io
