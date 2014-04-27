@@ -10,6 +10,10 @@ This method means that developers and users can contribute directly to the websi
 
 ----------------------------------------------------------------------------------------------------------
 
+[TEMPORARY LINK TO ALTERNATIVE GIT REPO](https://github.com/otherWIP/otherwip.github.io) {{ site.repo }}
+
+-------------------------------------------------------------------------------------------------------------
+
 The `README.md` files are not use to compile the website but are a place to keep notes throughout the site, maybe using a `gitignore` could keep all the `README.md` docs on a `gh-pages-dev branch` and when changes are merged to `gh-pages` the `README.md` docs are not readily exposed. Bear in mind `emonhub master` will be the default branch. (will `.gitignore` work on branches ?)
 
 
