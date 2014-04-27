@@ -1,1 +1,0 @@
-[emonCMS]({{ site.cms-org }})
