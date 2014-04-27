@@ -1,2 +1,1 @@
-{{ include step/step-name.md }}
-===============================
+# {{ include step/step-name.md }}
