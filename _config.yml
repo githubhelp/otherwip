@@ -17,12 +17,14 @@ js:    /assets/js/
 logo:  /assets/logos/
 
 # EXTERNAL LINKS use {{site.???}}
-gitrepo:  https://github.com
+
 cms-org:  http://emoncms.org/site/home
 oemmain:  http://openenergymonitor.org/emon/
 oemshop:  http://shop.openenergymonitor.com/
 oemforum: http://openenergymonitor.org/emon/forum
 rasp-img: http://downloads.raspberrypi.org/raspbian_latest
+#git:  https://github.com/emonhub
+git:  https://github.com/otherWIP/otherwip.github.io
 
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
