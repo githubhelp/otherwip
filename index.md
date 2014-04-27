@@ -4,7 +4,7 @@ js: index
 title: EmonHub Home
 ---
 
-#[TEMPORARY LINK TO ALTERNATIVE GIT REPO](https://github.com/otherWIP/otherwip.github.io) 
+##[TEMPORARY LINK TO ALTERNATIVE GIT REPO](https://github.com/otherWIP/otherwip.github.io) 
 
 # EmonHub
 ==============================
