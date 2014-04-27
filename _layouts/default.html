@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <!-- HEAD STARTS -->
+  
+  <head>
+    <meta charset="utf-8">
+    <base href="{{BASE_PATH}}"/>
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="{{ site.js }}bootstrap.min.js"></script>
+    
+    
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+    <link href="{{site.css}}bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- Optional theme -->
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+    
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    
+    <link href="{{site.logo}}favicon.ico" rel="icon" type="image/x-icon" />
+    
+    <!-- Bootstrap -->
+    <link href="{{BASE_PATH}}{{site.css}}custom.css" rel="stylesheet" type="text/css" media="screen" >
+    <link href="{{site.css}}custom.css" rel="stylesheet" type="text/css" media="screen" >
+    <!-- <link href="{{site.csspath}}bootstrap.css" rel="stylesheet" type="text/css" media="screen" > -->
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <!--  HEAD ENDS  -->
+  
+  <!-- BODY STARTS -->
+  
+  <body>
+  
+  	<div class="container">
+  		
+  			<div class="body-page">
+  			<div class="navbar navbar-inverse">
+  				<div class="navbar-inner">
+  				<!-- NAVAGATION BAR STARTS -->
+	  				<!--<div class="row">-->	
+  					<!--	<div class="col-md-12">-->
+  			
+  							<div class="navbar-header">
+		      						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+								        <span class="sr-only">Toggle navigation</span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								</button>
+		      						<a href="{{site.base}}" class="navbar-brand">EmonHub</a>
+		    					</div>
+							<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+								<ul class="nav navbar-nav">
+							        	<li>
+							          		<a href="{{site.page}}about">About</a>
+							        	</li>
+							        	<li>
+							          		<a href="{{site.page}}install">Install</a>
+							        	</li>
+							        	<li>
+							          		<a href="{{site.page}}upgrade">Upgrade</a>
+							        	</li>
+							        	<li>
+							          		<a href="{{site.page}}support">Support</a>
+							        	</li>
+							        	<li>
+							          		<a href="{{site.page}}develop">Develop</a>
+							        	</li>
+							      	</ul>
+							      
+							      	<ul class="nav navbar-nav navbar-right">
+							        	<!--<li><a href="http://expo.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Expo']);">Expo</a></li>
+							        	<li><a href="http://blog.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Blog']);">Blog</a></li>-->
+							        	<li><a href="{{site.gitrepo}}" >GitHub</a></li>
+							        	<li><a href="{{site.oemmain}}" >OEM</a></li>
+							        	<li><a href="{{site.emoncms}}" >EmonCMS</a></li>
+							      	</ul>
+							</nav>
+		    				</div>
+					</div>
+		  		
+  	<!--  NAVAGATION BAR ENDS  -->
+    	<!--</div>
+    	<br>
+    	 <div class="container">
+    	<div class="container-fluid"> -->
+    <div class="container-fluid">
+    	<!-- MAIN PAGE BEGINS -->
+    	<div class="row">
+    	
+    		<!-- Sidebar content starts -->
+		
+		<div class="col-md-3">
+		<div class="body-side">	
+			<ul class="nav nav-tabs nav-stacked" style="padding-left: 0px;">
+
+	          <li class="nav-header">Install & Upgrade</li>
+	          <li><a href="http://emoncms.org/site/docs/debianinstall">Debian Installer (apt-get)</a></li>
+	          <li><a href="http://emoncms.org/site/docs/installlinux">Install on Linux (via git)</a></li>
+	          <li><a href="http://emoncms.org/site/docs/sharedlinuxhosting">Install on Linux Shared Hosting</a></li>
+	          <li><a href="http://emoncms.org/site/docs/installwindows">Install on Windows</a></li>
+	          <li><a href="http://emoncms.org/site/docs/gettext">Using gettext on Ubuntu</a></li>
+	          <li><a href="http://emoncms.org/site/docs/upgrading">Upgrading</a></li>
+	          <li><a href="http://emoncms.org/site/docs/backup">Backup</a></li>
+	          <li><a href="http://emoncms.org/site/docs/troubleshooting">Troubleshooting</a></li>
+	
+	          <li class="nav-header">Raspberry PI</li>
+	          <li><a href="http://emoncms.org/site/docs/raspberrypigateway">Rock Solid Gateway Forwarder</a></li>
+	          <li><a href="http://emoncms.org/site/docs/raspberrypihdd">RaspberryPI + Hard drive + Emoncms (Recommended)</a></li>
+	          <li><a href="http://emoncms.org/site/docs/fullstackpi">Full stack raspberrypi setup (Experimental)</a></li>
+	
+	          <li class="nav-header">Using emoncms</li>
+	          <li><a href="http://emoncms.org/site/docs/inputsandfeeds">Inputs and Feeds</a></li>
+	          <li><a href="http://emoncms.org/site/docs/identifyinginputs">Identifying Inputs</a></li>
+	          <li><a href="http://emoncms.org/site/docs/inputprocessing">Input Processing</a></li>
+	          <li><a href="http://emoncms.org/site/docs/dashboards">Dashboards</a></li>
+	          <li><a href="http://emoncms.org/site/docs/visualisations">Visualisations</a></li>
+	
+	          <li class="nav-header">Develop emoncms</li>
+	          <li><a href="http://emoncms.org/site/docs/architecture">Get started</a></li>
+	          <li><a href="http://emoncms.org/site/docs/developinputproc">Input processing</a></li>
+	          <li><a href="http://emoncms.org/site/docs/developdatastorage">Data storage</a></li>
+	
+	          <li class="nav-header">Emoncms.org</li>
+	          <li><a href="http://emoncms.org/site/home" >Home</a></li>
+	          <li><a href="http://emoncms.org/site/usage">Hosting your data<br>on emoncms.org</a></li>
+	        </ul>
+
+		</div>
+		</div>
+		<!-- sidebar content ends -->
+		
+		<!-- Main body content starts -->
+      			
+  		<div class="col-md-9">
+  		<div class="body-main">
+			<div class="main">
+    			<!-- THIS IS WHERE THE MARKDOWN CONTENT IS PLACED -->
+     				<article>{{ content }}</article>
+
+		        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+		        <!-- Include all compiled plugins (below), or include individual files as needed -->
+		        <!--<script src="{{site.jspath}}bootstrap.min.js"></script>-->
+		        </div>
+		</div>
+		</div>
+		<!-- Main body content endss -->
+		</div>
+	</div>	
+      	</div>    <!-- </div> -->
+  </div>
+  <!--  BODY ENDS  -->	
+  </body>
+  
+  
+  
+</html>
