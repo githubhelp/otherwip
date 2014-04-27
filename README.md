@@ -6,7 +6,8 @@ Using GitHub pages to host the documentation website is an attempt to ease the t
 
 This method means that developers and users can contribute directly to the website using normal github procedures and has the intention of optimizing support as changes and solutions can be documented and updated more frequently than running a separate website.
 
-Zen mode is perfect for this job 
+##### Zen mode is perfect for this job 
+
 ----------------------------------------------------------------------------------------------------------
 
 The `README.md` files are not use to compile the website but are a place to keep notes throughout the site, maybe using a `gitignore` could keep all the `README.md` docs on a `gh-pages-dev branch` and when changes are merged to `gh-pages` the `README.md` docs are not readily exposed. Bear in mind `emonhub master` will be the default branch. (will `.gitignore` work on branches ?)
