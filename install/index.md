@@ -13,19 +13,14 @@ emonHub can be installed as a standalone or with emoncms
 
 #### Step 1 - Make a hot caffine enriched beverage !
 
-{% include sub-includes/coffee.md %}
-
-#### Step 2 - Get comfy
-
-
 ## We recomend installing by debian package
 
 ###[Debian Installation]({{site.page}}install/debian)
 
 ###[RaspberryPi Installation]({{site.page}}install/raspberrypi)
 
-{% include link/cms-org.md %}
+{% include link/cms.md %}
 
-## so can i use [GitHub Repo]({{site.gitrepo}}) inline?
+## so can i use [GitHub Repo]({{site.git}}) inline?
 
-## [EmonCMS Website]({{site.cms-org}})
+## [EmonCMS Website]({{site.cms}})
