@@ -1,6 +1,13 @@
-EmonHub (gh-pages) Website
-==========================
-==========================
+EmonHub Website
+===============
+===============
+
+Using GitHub pages to host the documentation website is an attempt to ease the task of documentation. Content is written almost entirely on markdown pages and the documents are parsed directly to the html pages automatically.
+
+This means that as contributors and developers can contibute directly to the website using normal github procedure. This is intended to optimise support as changes and solutions can be documented and updated more frequently than running a seperate website.
+
+-----------------------------------------------------------------------------------------------------------------------
+
 The `README.md` files are not use to compile the website but are a place to keep notes throughout the site, maybe using a `gitignore` could keep all the `README.md` docs on a `gh-pages-dev branch` and when changes are merged to `gh-pages` the `README.md` docs are not readily exposed. Bear in mind `emonhub master` will be the default branch. (will `.gitignore` work on branches ?)
 
 
