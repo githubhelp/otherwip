@@ -17,7 +17,7 @@ js:    /assets/js/
 logo:  /assets/logos/
 
 # EXTERNAL LINKS use {{site.???}}
-
+repo: http://archive.emonhub.org/
 cms:  http://emoncms.org/site/home
 oem:  http://openenergymonitor.org/emon/
 oemshop:  http://shop.openenergymonitor.com/
