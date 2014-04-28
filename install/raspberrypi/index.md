@@ -12,7 +12,7 @@ Installing EmonHub to Raspberry Pi.
 
 [Set up RaspberryPi hdd]({{site.page}}install/raspberrypi/harddrive)
 
-{% include step/raspbian+2src %}
+{% include step/raspbian+2src.md %}
 
 
 
