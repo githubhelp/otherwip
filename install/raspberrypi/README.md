@@ -1,22 +1,3 @@
-while we are here just edit the inittab (this step is only required if you're intending to use rfm2pi or serial port)
-
-sudo nano /media/hdd/etc/inittab
-
-edit the very last line by adding a hash so it reads " # T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100 "
-
-
-
-
-edit the cmdline.txt and reboot (the next 2 lines are 1 line wrapped, be sure it is entered as 1 line "sudo" to "txt'")
-
-sudo sh -c 'echo "dwc_otg.lpm_enable=0 console=tty1 root=/dev/sda2 rootfstype=ext4 elevator=deadline rootwait" > /boot/cmdline.txt'
-
-sudo shutdown -r now
-
-should now boot up to the hdd so add the repo to sources list, update and install (next 2 lines as one line again)
-
-sudo sh -c "echo 'deb http://emon-repo.s3.amazonaws.com wheezy unstable' >> /etc/apt/sources.list"
-
 sudo apt-get update
 
 sudo apt-get -y --force-yes install emoncms emoncms-module-event emoncms-module-rfm12pi
