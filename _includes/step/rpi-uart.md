@@ -14,11 +14,11 @@ By default the hashtag (#) will not be present, this line should be *commented o
 
     sudo nano /boot/cmdline.txt
 
-If the one line in this file contains this block of text 
+This file contains one line, check to see if it contains this block of text,  
 
     console=ttyAMA0,115200kgdboc=ttyAMA0,115200
 
-it should be deleted, leaving the remaining text as one line, exit using ` ctrl-x ` saving any edits with ` y ` and ` enter `.
+It should be removed leaving the remaining text as one line, exit using ` ctrl-x ` saving any edits with ` y ` and ` enter `.
 
 *Note - the changes will take effect at the next restart* 
 
