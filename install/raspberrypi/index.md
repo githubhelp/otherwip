@@ -7,6 +7,12 @@ layout: default
 js: index
 ---
 
+Installing EmonHub to Raspberry Pi.
+===================================
+
+[Set up RaspberryPi hdd]({{site.page}}install/raspberrypi/sd2hdd.md)
+
+
+
 {% include step/sd2hdd.md %}
 
-###[Debian Installation]({{site.baseurl}}install/debian)
