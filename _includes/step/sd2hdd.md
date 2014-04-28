@@ -2,7 +2,7 @@
 
 {% include link/rasp-img.md %}
 
-The quick and easy method is to put the image on **BOTH** the SD card and the HDD, boot up the RaspberryPi on the SD card and from there, connect and prepare the HDD for the RaspberryPi to boot to.
+The quick and easy method is to put the image on **BOTH** the SD card and the HDD, boot up the Pi on the SD card and from there, connect and prepare the HDD to boot to.
 
 Since the HDD image is a duplicate, the partition's uuid should be changed so that it is unique, at the same time the partitions label can be set. The harddisk's filesystem must then be mounted in order to access it, so create a directory  called hdd in the existing media directory and then mount the new hdd image to that directory.
 
@@ -12,4 +12,21 @@ Since the HDD image is a duplicate, the partition's uuid should be changed so th
     sudo nano /media/hdd/etc/fstab
 
 This last line opens the hdd's fstab for editing, change the default root location from " **/dev/mmcblk0p2** " to " **/dev/sda2** " then save and exit using `ctrl-X` -> `Y` -> `enter`,
+
+Next edit the cmdline.txt to point to the HDD at boot time and then reboot.
+
+    sudo sh -c 'echo "dwc_otg.lpm_enable=0 console=tty1 root=/dev/sda2 rootfstype=ext4 elevator=deadline rootwait" > /boot/cmdline.txt'
+
+    sudo shutdown -r now
+
+The Pi should now boot up to the HDD, now is a good time to perform an update and upgrade the Raspbian image.
+
+    sudo apt-get update
+    sudo apt-get upgrade -y
+
+The Pi and it's harddrive are now fully usable, although the downloaded Raspbian image's root partition is quite small and therefore the resulting partition on the HDD will possibly require re-sizing.
+
+    ADD LINK ?
+
+
 
