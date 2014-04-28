@@ -1,1 +1,1 @@
-[serial UART]({{ site.page }}install/raspberrypi)
+[serial UART]({{ site.page }}install/raspberrypi/serialport)
