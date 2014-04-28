@@ -10,12 +10,13 @@ js: index
 Installing EmonHub to Raspberry Pi.
 ===================================
 
+{% include step/wheezy2src.md %}
+
+{% include step/hub-deb.md %}
+
 [Set up RaspberryPi hdd]({{site.page}}install/raspberrypi/harddrive)
 
 
 
-{% include step/wheezy2src.md %}
-
-{% include step/quantal2src.md %}
 
 
