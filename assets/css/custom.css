@@ -1,47 +1,26 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
   background-color: #eeeeee;
 }
 
 div.body-page {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
   background-color: #D3C7C7;
 }
 
 div.body-main {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
   background-color: #D3C7C7;
 }
 
 div.body-side {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
   background-color: #ebdbdb;
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .navbar-brand {
-  float: left;
-  padding: 15px;
   font-size: 40px;
   line-height: 40px;
   height: 70px;
-  bold;
 }
