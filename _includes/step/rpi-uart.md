@@ -1,4 +1,4 @@
-## Configure the Serial UART
+#### Configure the Serial UART
 
 By default the Raspberry Pi has it's external serial UART configured to monitor debug information via a terminal, this configuration should be changed to provide access to the "serial port".
 
