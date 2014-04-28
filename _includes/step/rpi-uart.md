@@ -12,7 +12,7 @@ By default the hashtag (#) will not be present, this line should be *commented o
 
     sudo nano /boot/cmdline.txt
 
-If this file contains the following text it should be removed / deleted,
+If the one line in this file contains the following block of text it should be removed / deleted,
 
     console=ttyAMA0,115200kgdboc=ttyAMA0,115200
 
