@@ -31,8 +31,17 @@ div.body-side {
 }
 
 .container {
-margin-right: auto;
-margin-left: auto;
-padding-left: 0px;
-padding-right: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+media="screen"
+.navbar-brand {
+float: left;
+padding: 15px;
+font-size: 18px;
+line-height: 20px;
+height: 75px;
 }
