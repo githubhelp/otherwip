@@ -14,5 +14,5 @@ Installing EmonHub to Raspberry Pi.
 
 
 
-{% include step/sd2hdd.md %}
+
 
