@@ -109,48 +109,42 @@
 					
 						<div class="body-side">	
 					
-							<div class="navbar navbar-inverse">
-				  			
-				  				<div class="navbar-inner">
-				  				
-					  				<div class="navbar-header">
-				      						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-										        <span class="sr-only">Toggle navigation</span>
-										        <span class="icon-bar"></span>
-										        <span class="icon-bar"></span>
-										        <span class="icon-bar"></span>
-										</button>
-				      						<a href="{{site.base}}" class="navbar-brand">EmonHub</a>
-				    					</div>
-									<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-										<ul class="nav navbar-nav">
-									        	<li>
-									          		<a href="{{site.page}}about">About</a>
-									        	</li>
-									        	<li>
-									          		<a href="{{site.page}}install">Install</a>
-									        	</li>
-									        	<li>
-									          		<a href="{{site.page}}upgrade">Upgrade</a>
-									        	</li>
-									        	<li>
-									          		<a href="{{site.page}}support">Support</a>
-									        	</li>
-									        	<li>
-									          		<a href="{{site.page}}develop">Develop</a>
-									        	</li>
-									      	</ul>
-				
-									      	<ul class="nav navbar-nav navbar-right">
-									        	<!--<li><a href="http://expo.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Expo']);">Expo</a></li>
-									        	<li><a href="http://blog.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Blog']);">Blog</a></li>-->
-									        	<li><a href="{{site.git}}" >GitHub</a></li>
-									        	<li><a href="{{site.oem}}" >OEM</a></li>
-									        	<li><a href="{{site.cms}}" >EmonCMS</a></li>
-									      	</ul>
-									</nav>
-				    				</div>
-							</div>
+							<li class="nav-header">
+  <a href="#" data-toggle="collapse" data-target="#userMenu">
+    User <i class="icon-angle-down"></i>
+  </a>
+  <ul style="list-style: none;" class="collapse in" id="userMenu">
+    <li class="active"><a href="#"><i class="icon-home"></i>Home</a></li>
+    <li><a href="#"><i class="icon-envelope-alt"></i>Messages <span class="badge badge-info">4</span></a></li>
+    <li><a href="#"><i class="icon-cogs"></i>Settings</a></li>
+    <li><a href="#"><i class="icon-comment"></i>Shoutbox</a></li>
+    <li><a href="#"><i class="icon-user"></i>Staff List</a></li>
+    <li><a href="#"><i class="icon-flag"></i>My Infractions</a></li>
+    <li><a href="#"><i class="icon-exclamation-sign"></i>Rules &amp; Regulations</a></li>
+    <li><a href="#"><i class="icon-off"></i>Logout</a></li>
+  </ul>
+</li>
+<li class="nav-header">
+  <a href="#" data-toggle="collapse" data-target="#radioDJMenu">
+    Radio DJ <i class="icon-angle-right"></i>
+  </a>
+  <ul style="list-style: none;" class="collapse" id="radioDJMenu">
+    <li><a href="#">Information &amp; Stats</a></li>
+    <li><a href="#">DJ Says</a></li>
+    <li><a href="#">Request Line</a></li>
+    <li><a href="#">Timetable</a></li>
+    <li><a href="#">Banned Songs</a></li>
+  </ul>
+</li>
+<li class="nav-header">
+<a href="#" data-toggle="collapse" data-target="#headDJMenu">
+    Head DJ <i class="icon-angle-right"></i>
+  </a>
+  <ul style="list-style: none;" class="collapse" id="headDJMenu">
+    <li><a href="#"><i class="icon-"></i>All Banned Songs</a></li>
+  </ul>
+</li>
+
 		
 							<ul class="nav nav-tabs nav-stacked" style="padding-left: 0px;">
 					
