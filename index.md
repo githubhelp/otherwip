@@ -20,11 +20,11 @@ title: EmonHub Home
 
 [TEMPORARY LINK TO emon-repo.s3.amazonaws.com](http://emon-repo.s3.amazonaws.com)
 
-[TEMPORARY LINK TO repo.emonhub.org](repo.emonhub.org})
+[TEMPORARY LINK TO repo.emonhub.org](repo.emonhub.org/})
 
 [TEMPORARY LINK TO archive.emonhub.org]({{ site.repo }})
 
-
+http://emon-repo.emonhub.org/
 
 Tested without masking ok, currently forwarding is set with masking, waiting for it to update
 
