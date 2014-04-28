@@ -19,7 +19,7 @@ The Raspberry Pi has proved to be by far the most suitable platform and has beco
 
 Raspbian "wheezy" is the default operating software for the Raspberry Pi, it is based on the Debian linux project.
 
-## The recommended installation method is therefore by debian package installer.
+#### The recommended installation method is therefore by debian package installer.
 
 ###[RaspberryPi Installation]({{site.page}}install/raspberrypi)
 
