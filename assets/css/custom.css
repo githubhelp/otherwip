@@ -37,11 +37,10 @@ div.body-side {
   padding-right: 0px;
 }
 
-media="screen"
 .navbar-brand {
-float: left;
-padding: 15px;
-font-size: 18px;
-line-height: 20px;
-height: 75px;
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 75px;
 }
