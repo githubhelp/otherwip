@@ -13,12 +13,12 @@ Since the HDD image is a duplicate, the partition's uuid should be changed so th
 
 This last line opens the hdd's fstab for editing, change the default root location from " **/dev/mmcblk0p2** " to " **/dev/sda2** " then save and exit using `ctrl-X` -> `Y` -> `enter`,
 
-Next edit the cmdline.txt to point to the HDD at boot time and then reboot.
-
-*note - this command also removes the text that effects the {% include link/rpi-uart.md %} configuration*    
+Next edit the cmdline.txt to point to the HDD at boot time.
 
     sudo sh -c 'echo "dwc_otg.lpm_enable=0 console=tty1 root=/dev/sda2 rootfstype=ext4 elevator=deadline rootwait" > /boot/cmdline.txt'
 
+*note - this command also removes text that effects the {% include link/rpi-uart.md %}, read before re-starting Pi*    
+    
     sudo shutdown -r now
 
 The Pi should now boot up to the HDD, now is a good time to perform an update and upgrade the Raspbian image.
