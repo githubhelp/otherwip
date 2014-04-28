@@ -10,7 +10,7 @@ js: index
 Installing EmonHub to Raspberry Pi.
 ===================================
 
-[Set up RaspberryPi hdd]({{site.page}}install/raspberrypi/sd2hdd.md)
+[Set up RaspberryPi hdd]({{site.page}}install/raspberrypi/harddrive.md)
 
 
 
