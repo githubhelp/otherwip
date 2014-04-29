@@ -13,13 +13,13 @@ div.body-page {
 div.body-main {
   background-color: #D3C7C7;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 0px;
 }
 
 div.body-side {
   background-color: #222;
   margin-left:-30px;
-  margin-right: 0px;
+  margin-right: -30px;
 }
 
 
