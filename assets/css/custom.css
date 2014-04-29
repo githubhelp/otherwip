@@ -34,3 +34,6 @@ padding-right: 0px;
 div.logo-box {
   margin: 10px;
 }
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color:#ee55aa;
+}
