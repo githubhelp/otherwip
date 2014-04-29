@@ -5,6 +5,8 @@ body {
 
 div.body-page {
   background-color: #D3C7C7;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 div.body-main {
