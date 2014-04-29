@@ -18,7 +18,7 @@ div.body-main {
   padding-left: 20px;
   padding-right: 20px;
   margin-right: -30px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 div.body-side {
@@ -77,10 +77,10 @@ div.logo-box {
       /* Set the fixed height of the footer here */
       #push,
       #footer {
-        height: 0px;
+        height: 60px;
       }
       #footer {
-        background-color: #f5f5f5;
+        background-color: #222;
       }
 
       /* Lastly, apply responsive CSS fixes as necessary */
