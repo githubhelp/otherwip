@@ -9,6 +9,7 @@ js: index
 
 {% include temp/temp-top.md %}
 {% include temp/temp-end.md %}
+
 emonHub can be installed as a standalone or with emoncms
 
 
