@@ -16,14 +16,14 @@ div.body-side {
 }
 
 
+.container {
+padding-left: 0px;
+padding-right: 0px;
+}
+
 .navbar-brand {
   font-size: 40px;
   line-height: 40px;
   height: 70px;
   margin-left: 0px;
-}
-
-.container {
-padding-left: 0px;
-padding-right: 0px;
 }
