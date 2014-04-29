@@ -23,7 +23,9 @@ padding-left: 0px;
 padding-right: 0px;
 }
 
-.navbar-inverse
+.navbar-inverse {
+  margin-top: 20px;
+}
 
 .navbar-brand {
   font-size: 40px;
