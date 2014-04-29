@@ -21,6 +21,10 @@ div.body-main {
   padding-bottom: 60px;
 }
 
+Inline style{
+    border-bottom-width: 1px;
+}
+
 div.body-side {
   margin-right: -30px;
 }
