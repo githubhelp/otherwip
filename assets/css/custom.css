@@ -23,7 +23,9 @@ padding-left: 0px;
 padding-right: 0px;
 }
 
-.navbar-inverse, .navbar-brand {
+.navbar-inverse
+
+.navbar-brand {
   font-size: 40px;
   line-height: 30px;
   height: 70px;
@@ -35,7 +37,7 @@ padding-right: 0px;
 div.logo-box {
   margin: 10px;
 }
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color:#0099FF;
   font-weight: 600;
 }
