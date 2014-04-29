@@ -1,5 +1,5 @@
 ---
-title:Installing EmonHub
+title: Installing EmonHub
 tags: 
 categories: 
 published: True
