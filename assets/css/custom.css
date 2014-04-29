@@ -14,7 +14,8 @@ div.body-page {
 
 div.body-main {
   background-color: #D3C7C7;
-  margin-left: -25px
+  margin-left: -25px;
+  padding-left; 50px;
 }
 
 div.body-side {
