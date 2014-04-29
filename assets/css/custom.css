@@ -77,7 +77,7 @@ div.logo-box {
       /* Set the fixed height of the footer here */
       #push,
       #footer {
-        height: 60px;
+        height: 30px;
       }
       #footer {
         background-color: #222;
