@@ -22,14 +22,11 @@ div.body-main {
 }
 
 div.body-side {
-  
+  padding-left: 20;
   margin-right: -30px;
 }
 
-.nav-header {
-  padding-left: 20;
 }
-
 .container {
 padding-left: 0px;
 padding-right: 0px;
