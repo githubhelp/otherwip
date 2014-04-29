@@ -36,6 +36,10 @@ padding-right: 0px;
   color:#0099FF;
 }
 
+img {
+vertical-align: baseline;
+}
+
 div.logo-box {
   margin-left: 10px;
 }
