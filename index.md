@@ -4,8 +4,9 @@ js: index
 title: EmonHub Home
 ---
 
+{% include temp/temp-top.md %}
 ##[TEMPORARY LINK TO ALTERNATIVE GIT REPO](https://github.com/otherWIP/otherwip.github.io) 
-
+{% include temp/temp-end.md %}
 # EmonHub
 ==============================
 
