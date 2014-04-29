@@ -14,7 +14,8 @@ div.body-main {
 }
 
 div.body-side {
-  background-color: #D3C7C7;
+  background-color: #222;
+  margin-left:-20px;
 }
 
 
