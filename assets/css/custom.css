@@ -30,3 +30,7 @@ padding-right: 0px;
   margin-left: 0px;
   font-weight: 600;
 }
+
+div.logo-box {
+  margin: 5px;
+}
