@@ -26,9 +26,10 @@ div.body-side {
   margin-right: -30px;
 }
 
-nav-header {
+.nav-header {
   padding-left: 20;
 }
+
 .container {
 padding-left: 0px;
 padding-right: 0px;
