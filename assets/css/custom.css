@@ -29,11 +29,13 @@ padding-right: 0px;
   height: 70px;
   margin-left: 0px;
   font-weight: 600;
+  color:#0099FF;
 }
 
 div.logo-box {
   margin: 10px;
 }
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color:#0099FF;
+  font-weight: 600;
 }
