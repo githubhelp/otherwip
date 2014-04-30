@@ -1,9 +1,20 @@
 /*media screen*/
-.btn-default, .btn:hover, .btn:focus {
+.btn-default {
     color: #0099FF;
     background-color: #222;
     border-color: #0099FF;
 }
+
+.btn:hover, .btn:focus {
+    color: #fff;
+}
+
+/*media screen*/
+.navbar-inverse .navbar-nav > li > a {
+    color:#0099FF;
+    
+}
+
 
 /*media screen*/
 .form-control {
