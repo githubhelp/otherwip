@@ -2,6 +2,6 @@
 
     sudo sh -c "echo 'deb http://archive.emonhub.org wheezy unstable' >> /etc/apt/sources.list"
     
-*note: If running a different {% include link/distro %} edit "wheezy" to suit.*
+*note: If running a different {% include link/distro.md %} edit "wheezy" to suit.*
 
 ---------------------------------------------------------------
