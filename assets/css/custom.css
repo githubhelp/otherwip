@@ -14,13 +14,16 @@
 .nav-header-link > li > a:focus, .nav-header-link > li > a:hover,{ 
     color:#0000cc 
     }
-.nav-header-link { 
+.nav-header-link > li > a: { 
     padding-left: 10px;
     font-weight: 700;
     color:#9900cc 
     }
 
-
+.dropdown-menu > li > a > nav-header-link {
+    
+    font-weight: 700;
+}
 
 .nav-header {
     padding-left: 10px;
