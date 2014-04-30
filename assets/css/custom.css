@@ -1,6 +1,6 @@
 /*media screen*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #0099ff;
+    background-color: #222;
     color: #fff;
 }
 
