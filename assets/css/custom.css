@@ -1,5 +1,5 @@
 /*media screen*/
-.btn-default {
+.btn-default, .btn:hover, .btn:focus {
     color: #0099FF;
     background-color: #222;
     border-color: #0099FF;
