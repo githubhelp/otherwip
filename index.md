@@ -17,7 +17,7 @@ title: EmonHub Home
 
 {% include temp/temp-end.md %}
 
-# [Welcome to EmonHub Documentation]({{site.base}})
+# [**Welcome to EmonHub Documentation**]({{site.base}})
 ----------------------------------
 ----------------------------------
 
