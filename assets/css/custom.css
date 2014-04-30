@@ -4,6 +4,7 @@ body {
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-color: #222;
+  background-color: #;
 }
 div.body-page {
   background-color: #D3C7C7;
@@ -12,7 +13,7 @@ div.body-page {
 }
 
 div.body-main {
-  background-color: #D3C7C7;
+  background-color: #222;
 }
 
 .nav-tabs {
