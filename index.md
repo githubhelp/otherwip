@@ -17,7 +17,8 @@ title: EmonHub Home
 
 {% include temp/temp-end.md %}
 
-# Welcome to EmonHub Documentation
+# [Welcome to EmonHub Documentation]({{site.base}})
+----------------------------------
 ----------------------------------
 
 ### This is the main landing page automatically created from /index.md
