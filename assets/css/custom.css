@@ -20,7 +20,7 @@ div.body-main {
     border-bottom: 0px;
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active, .active.btn-default, .open .btn-default.dropdown-toggle {
+.btn-default:hover, .btn-default:focus, .btn-default:active, .active.btn-default, .open .btn-default.dropdown-toggle .form-control{
   background-color: #222;
 }
 
