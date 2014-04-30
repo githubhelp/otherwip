@@ -2,7 +2,9 @@ body {
   background-color: #222;
   padding-top: 70px;
 }
-
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #222;
+}
 div.body-page {
   background-color: #D3C7C7;
   padding-left: 50px;
