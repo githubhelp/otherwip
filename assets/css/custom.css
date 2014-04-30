@@ -1,3 +1,11 @@
+
+/*media screen*/
+.btn-default {
+    color: #0099FF;
+    background-color: #222;
+    border-color: #0099FF;
+}
+
 /*media screen*/
 .form-control {
     color: #fff;
