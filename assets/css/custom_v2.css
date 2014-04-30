@@ -1,0 +1,101 @@
+body {
+  background-color: #222;
+  padding-top: 70px;
+}
+
+div.body-page {
+  background-color: #222;
+  padding-right: 15px;
+  margin-right: -10px;
+  margin-top: -20px;
+  padding-top: 20px;
+  margin-left:-30px;
+}
+
+div.body-main {
+  background-color: #D3C7C7;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: -30px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+  min-height: 100%;
+}
+
+.nav-tabs {
+    border-bottom: 0px;
+}
+
+
+div.body-side {
+  margin-right: -30px;
+}
+
+}
+.container {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.navbar-inverse {
+  
+}
+
+.navbar-brand {
+  font-size: 40px;
+  line-height: 40px;
+  height: 70px;
+  margin-left: 0px;
+  font-weight: 600;
+  color:#0099FF;
+}
+
+img {
+vertical-align: baseline;
+}
+
+div.logo-box {
+  margin-left: -5px;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color:#0099FF;
+  font-weight: 700;
+}
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 30px;
+      }
+      #footer {
+        background-color: #222;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
