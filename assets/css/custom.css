@@ -5,6 +5,7 @@ body {
 
 div.body-page {
   background-color: #D3C7C7;
+  padding-left: 50px;
 }
 
 div.body-main {
@@ -48,30 +49,9 @@ div.logo-box {
   font-weight: 700;
 }
 
-/* Sticky footer styles
-      -------------------------------------------------- */
 
-      html,
-      body {
-        height: 100%;
-        /* The html and body elements cannot have any padding or margin. */
-      }
-
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
-
-      /* Set the fixed height of the footer here */
-      #push,
       #footer {
         height: 30px;
-      }
-      #footer {
         background-color: #222;
       }
 
