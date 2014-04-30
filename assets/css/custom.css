@@ -3,8 +3,8 @@ body {
   padding-top: 70px;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #222;
-  background-color: #;
+  border-color: #0099FF;
+  background-color: #222;
 }
 div.body-page {
   background-color: #D3C7C7;
@@ -13,7 +13,7 @@ div.body-page {
 }
 
 div.body-main {
-  background-color: #222;
+  background-color: #D3C7C7;
 }
 
 .nav-tabs {
