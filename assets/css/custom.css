@@ -11,9 +11,15 @@
     background-color: #0099ff;
 }
 
-a:link.nav-header-link { color:#0000cc }
-a:visited.nav-header-link { color:#9900cc }
-a:hover.nav-header-link { color:#990000 }
+.nav-header-link > li > a:focus, .nav-header-link > li > a:hover,{ 
+    color:#0000cc 
+    }
+a.nav-header-link { 
+    padding-left: 10px;
+    font-weight: 700;
+    color:#9900cc 
+    }
+
 
 
 .nav-header {
