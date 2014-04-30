@@ -1,13 +1,13 @@
 /*media screen*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #222;
-    color: #fff;
+    color: #D3C7C7;
 }
 
 /*media screen*/
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
-    color: #fff;
+    color: #D3C7C7;
     background-color: #0099ff;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .btn:hover, .btn:focus {
-    color: #fff;
+    color: #D3C7C7;
     border-color: #0099FF;
 }
 
