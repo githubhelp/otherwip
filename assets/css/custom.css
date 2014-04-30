@@ -1,3 +1,12 @@
+/*media screen*/
+.form-control {
+    color: #555;
+    background-color: #222;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 body {
   background-color: #222;
   padding-top: 70px;
