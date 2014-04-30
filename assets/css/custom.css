@@ -11,8 +11,8 @@
     background-color: #0099ff;
 }
 .dropdown-menu > li > a.nav-header-link:hover, .dropdown-menu > li > a.nav-header-link:focus {
-    padding-left: 0px;
-    font-weight: 700;
+    margin-left:-10px;
+    padding-left: 10px;
 }
 
 .dropdown-menu > li > a.nav-header-link {
