@@ -20,6 +20,9 @@ div.body-main {
     border-bottom: 0px;
 }
 
+form-group {
+  background-color: #fff;
+}
 
 div.body-side {
 }
