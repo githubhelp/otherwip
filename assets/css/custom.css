@@ -16,7 +16,8 @@
 }
 
 .dropdown-menu > li > a.nav-header-link {
-    padding-left: 0px;
+    margin-left:-10px;
+    padding-left: 10px;
     font-weight: 700;
 }
 
