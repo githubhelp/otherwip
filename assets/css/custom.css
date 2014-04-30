@@ -20,7 +20,7 @@
     color:#9900cc 
     }
 
-.dropdown-menu > li > a > nav-header-link {
+.dropdown-menu > li > a.nav-header-link {
     
     font-weight: 700;
 }
