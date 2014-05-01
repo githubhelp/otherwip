@@ -39,6 +39,6 @@ This method can also be used to install to other Debain derived platforms such a
 
 ## so can i use [GitHub Repo]({{site.hub-git}}) inline?
 
-## so can i use [GitHub Repo]({% include site/hub-git %})
+## so can i use [GitHub Repo]({% include site/hub-git %}) inline?
 
 ## [EmonCMS Website]({{site.cms}})
