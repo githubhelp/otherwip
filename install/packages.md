@@ -8,7 +8,7 @@ js: index
 ---
 ## Packages currently available 
 
-    emonhub
+>emonhub
 
 
     emoncms
