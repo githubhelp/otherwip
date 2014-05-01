@@ -4,9 +4,9 @@
 
 
 | No | Question | Default | What to enter |
-|:---------------------------------------------------------:|:---------------:|:------------ |:--------------------- |
-| 2 | password | blank | enter root password |
-| 1 | confirm | blank | repeat root password |
+|:---:|:---------------:|:------------ |:--------------------- |
+| 1 | password | blank | enter root password |
+| 2 | confirm | blank | repeat root password |
 
 
 
