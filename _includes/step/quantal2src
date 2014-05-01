@@ -2,6 +2,6 @@
 
     sudo sh -c "echo 'deb http://archive.emonhub.org quantal unstable' >> /etc/apt/sources.list"
     
-*note: If running a different {% include link/distro %} edit "quantal" to suit.*
+*note: If running a different {% include link/int/distro %} edit "quantal" to suit.*
 
 -----------------------------------------
