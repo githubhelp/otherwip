@@ -7,4 +7,4 @@ layout: default
 js: index
 ---
 
-{% include step/rpi-uart.md %}
+{% include step/rpi-uart %}
