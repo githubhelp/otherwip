@@ -7,7 +7,7 @@ layout: default
 js: index
 ---
 
-Installing EmonHub to Raspberry Pi.
+Installing EmonHub to Raspberry Pi
 ===================================
 
 -----------------------------------
