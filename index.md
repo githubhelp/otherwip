@@ -6,6 +6,9 @@ title: EmonHub Home
 
 
 # [**Welcome to EmonHub Documentation**]({{site.base}})
+
+# [**Welcome to EmonHub Documentation**]((% include page/home %))
+
 ----------------------------------
 ----------------------------------
 
