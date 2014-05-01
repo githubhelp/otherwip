@@ -24,6 +24,7 @@ oemshop:  http://shop.openenergymonitor.com/
 forum: http://openenergymonitor.org/emon/forum
 rasp-img: http://downloads.raspberrypi.org/raspbian_latest
 git:  https://github.com/emonhub
+hub-git:  https://github.com/emonhub
 #git:  https://github.com/otherWIP/otherwip.github.io
 
 # This is the default format. 
