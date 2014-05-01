@@ -95,9 +95,14 @@ div.body-main {
 div.body-side {
 }
 
-}
+/*media screen*/
 .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
 
 .navbar-inverse {
   
