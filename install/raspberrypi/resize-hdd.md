@@ -1,5 +1,5 @@
 ---
-title: re-size HDD
+title: Re-size HDD
 tags: 
 categories: 
 published: True
