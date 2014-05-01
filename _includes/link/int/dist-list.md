@@ -1,1 +1,1 @@
-[ distro ]({{site.page}}install/distro)
+[ distro ]({{site.page}}install/debian/distro)
