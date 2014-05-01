@@ -16,7 +16,7 @@
 
 -----------------
 
-```
+
 |---
 | Default aligned | Left aligned | Center aligned | Right aligned
 |-|:-|:-:|-:
@@ -28,6 +28,6 @@
 | 2 line
 |===
 | Footer row
-```
+
 
 -----------------------------------
