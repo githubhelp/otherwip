@@ -17,7 +17,7 @@ Next edit the cmdline.txt to point to the HDD at boot time.
 
     sudo sh -c 'echo "dwc_otg.lpm_enable=0 console=tty1 root=/dev/sda2 rootfstype=ext4 elevator=deadline rootwait" > /boot/cmdline.txt'
 
-*note - this command also removes text from cmdline.txt that effects the {% include link/rpi-uart %}, check before re-starting Pi*    
+*note - this command also removes text from cmdline.txt that effects the {% include link/int/rpi-uart %}, check before re-starting Pi*    
     
     sudo shutdown -r now
 
