@@ -3,13 +3,11 @@
 
 
 
-|---
 | No | Question | Default | What to enter
 |-|:-:|:-|:-
 | 2 | password | blank | enter root password
 |---
 | 1 | confirm | blank | repeat root password
-|---
 
 
 
