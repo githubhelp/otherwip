@@ -6,5 +6,5 @@ published: True
 layout: default
 js: index
 ---
-## Installing on Linux
+## Installing EmonHub onLinux
 --------------------
