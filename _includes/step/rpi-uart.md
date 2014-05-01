@@ -21,5 +21,3 @@ This file contains one line, check to see if it contains this block of text,
 It should be removed leaving the remaining text as one line, exit using `ctrl-x` saving any edits with `y` -> `enter`.
 
 *Note - the changes will take effect at the next restart* 
-
------------------------------------------------------------------------------------------------------
