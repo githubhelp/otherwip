@@ -1,1 +1,1 @@
-[ packages ]({{site.page}}install/packages)
+[ packages ]({{site.page}}install/debian/packages)
