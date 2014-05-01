@@ -9,10 +9,10 @@ js: index
 
 ----------------------------------------------
 
-{% include step/sd2hdd %}
+{% include step/sd2hdd.md %}
 
 ------------------------------------------
 
-{% include  step/rpi-uart %}
+{% include  step/rpi-uart.md %}
 
 -------------------------------------------
