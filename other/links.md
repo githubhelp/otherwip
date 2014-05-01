@@ -10,4 +10,4 @@ js: index
 ---------------------------------
 
 
-####{% include link/ext/shop %}
+####{% include link/ext/shop.md %}
