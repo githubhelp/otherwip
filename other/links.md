@@ -6,6 +6,6 @@ published: True
 layout: default
 js: index
 ---
-#### Some other useful links...
+### *Some other useful links...*
 
 ####{% include link/ext/shop %}
