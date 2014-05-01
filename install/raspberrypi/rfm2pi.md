@@ -7,4 +7,7 @@ layout: default
 js: index
 ---
 
-## RFM2Pi RF board
+## Installing the RFM2Pi
+
+
+#### {% include link/int/serialport.md %}
