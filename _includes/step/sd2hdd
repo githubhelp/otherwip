@@ -1,5 +1,7 @@
 #### Set-up a Raspbian hard drive image for Raspberry Pi using SD card.
 
+{% include link/ext/rasp-img %}
+
 The quick and easy method is to put the image on **BOTH** the SD card and the HDD, boot up the Pi on the SD card and from there, connect and prepare the HDD to boot to.
 
 Since the HDD image is a duplicate, the partition's uuid should be changed so that it is unique, at the same time the partitions label can be set. The harddisk's filesystem must then be mounted in order to access it, so create a directory  called hdd in the existing media directory and then mount the new hdd image to that directory.
