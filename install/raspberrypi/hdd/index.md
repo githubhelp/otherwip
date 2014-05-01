@@ -1,5 +1,5 @@
 ---
-title: RaspberryPi Harddrive
+title: RaspberryPi HDD
 tags: 
 categories: 
 published: True
