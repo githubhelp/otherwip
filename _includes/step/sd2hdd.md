@@ -26,8 +26,4 @@ The Pi should now boot up to the HDD, now is a good time to perform an update an
     sudo apt-get update
     sudo apt-get upgrade -y
 
-The Pi and it's harddrive are now fully usable, although the downloaded Raspbian image's root partition is quite small and therefore the resulting partition on the HDD will possibly require re-sizing.
-
-    ADD LINK ?
-
-
+The downloaded image's root partition is quite small and as a result it maybe necessary to re-size the HDD partition.
