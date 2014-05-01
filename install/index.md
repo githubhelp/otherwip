@@ -33,7 +33,7 @@ This method can also be used to install to other Debain derived platforms such a
 
 
 
-{% include link/ext/cms %}
+{% include link/ext/cms.md %}
 
 ## so can i use [GitHub Repo]({{site.hub-git}}) inline?
 
