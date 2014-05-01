@@ -1,1 +1,1 @@
-[Download the latest Raspbian Image]({{ site.rasp-img }})
+[ Download the latest Raspbian Image ]({{ site.rasp-img }})
