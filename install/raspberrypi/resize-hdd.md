@@ -1,5 +1,5 @@
 ---
-title: Re-size HDD
+title: HDD Partitions
 tags: 
 categories: 
 published: True
