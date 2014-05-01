@@ -1,1 +1,1 @@
-[ re-size HDD ]({{ site.page }}install/raspberrypi/resize-hdd)
+[ re-size HDD ]({{ site.page }}install/raspberrypi/hdd/resize)
