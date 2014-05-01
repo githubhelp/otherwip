@@ -12,9 +12,9 @@ Installing EmonHub to Raspberry Pi
 
 -----------------------------------
 
-{% include step/wheezy2src %}
+{% include step/wheezy2src.md %}
 
-{% include step/deb2hub %}
+{% include step/deb2hub.md %}
 
 Follow the set-up screens
 
