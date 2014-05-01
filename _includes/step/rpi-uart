@@ -1,6 +1,6 @@
 #### Configure the Serial UART
 
-By default the Raspberry Pi has it's external serial UART configured to monitor debug information via a terminal, this configuration can and should be changed to provide access to the "serial port" if required (*for {% include link/rfm2pi %} for example*).
+By default the Raspberry Pi has it's external serial UART configured to monitor debug information via a terminal, this configuration can and should be changed to provide access to the "serial port" if required (*for {% include link/int/rfm2pi %} for example*).
 
 To do this 2 files need to be edited (unless previously done).
 
