@@ -10,4 +10,4 @@ js: index
 ## Installing the RFM2Pi
 
 
-#### {% include link/int/serialport.md %}
+Configure the {% include link/int/rpi-uart.md %} so the RFM2Pi can connect via the RaspberryPi's serial port.
