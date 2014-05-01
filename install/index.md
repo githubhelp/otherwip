@@ -39,4 +39,4 @@ This method can also be used to install to other Debain derived platforms such a
 
 ## [EmonCMS Website]({{site.cms}})
 
-{% include link/ext/cms %}
+{% include link/ext/cms.md %}
