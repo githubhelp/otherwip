@@ -6,3 +6,4 @@ published: True
 layout: default
 js: index
 ---
+## Installing on Linux
