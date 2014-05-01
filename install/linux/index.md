@@ -1,5 +1,5 @@
 ---
-title: Linux install
+title: Linux Install
 tags: 
 categories: 
 published: True
