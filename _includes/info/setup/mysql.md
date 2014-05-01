@@ -7,7 +7,7 @@
 | :---: | :------------------------------------ | :--- | :--- |
 |----|---------------------------------|----|------------------------------------|
 | 1 | password | blank | enter root password |
-| 2 | confirm | blank | repeat root password |
+| 3 | confirm | blank | repeat root password |
 
 
 
