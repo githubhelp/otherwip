@@ -1,6 +1,6 @@
 #### Set-up a Raspbian hard drive image for Raspberry Pi using SD card.
 
-{% include link/ext/rasp-img %}
+{% include link/ext/rasp-img.md %}
 
 The quick and easy method is to put the image on **BOTH** the SD card and the HDD, boot up the Pi on the SD card and from there, connect and prepare the HDD to boot to.
 
