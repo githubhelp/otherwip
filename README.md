@@ -1,4 +1,4 @@
-EmonHub Website
+EmonHub Documentation Website
 ===============
 ===============
 
