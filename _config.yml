@@ -12,7 +12,7 @@ markdown: kramdown
 # INTERNAL PATHS use {{site.???}}
 base:  /
 page:  /documentation/
-image: /images/
+image: /assets/images/
 css:   /assets/css/ 
 js:    /assets/js/
 logo:  /assets/logos/
