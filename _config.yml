@@ -11,8 +11,9 @@ markdown: kramdown
 
 # INTERNAL PATHS use {{site.???}}
 base:  /
-page:  /  #documentation
-css:   /assets/css/ #/emonhub/assets/css/
+page:  /documentation/
+image: /images/
+css:   /assets/css/ 
 js:    /assets/js/
 logo:  /assets/logos/
 
