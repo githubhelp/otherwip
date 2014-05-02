@@ -1,5 +1,5 @@
 ---
-title: Debian Install
+title: Development
 tags: 
 categories: 
 published: True
