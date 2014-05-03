@@ -11,5 +11,5 @@ js: index
 and again beneath the line starting with ####
 
 
-####["site.page" link to testpage.md ]({{site.page}}test/testpage.md)
-["site.page" link to testpage.md ]({{site.page}}test/testpage.md)
+####["site.page" link to testpage ]({{site.page}}test/testpage)
+["site.page" link to testpage ]({{site.page}}test/testpage)
