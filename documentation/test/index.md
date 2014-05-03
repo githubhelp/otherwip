@@ -12,11 +12,15 @@ list all include tests here
 ####and again starting with 4 hashes
 
 --------------------------------------------------------
-include page
+
 
 [fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage)
 
 ####[fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage)
+
+
+------------------------------------
+include page
 
 {%include test/link/page/testpage.md%}
 
