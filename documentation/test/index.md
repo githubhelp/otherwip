@@ -7,14 +7,16 @@ layout: default
 js: index
 ---
 
-####list all include tests here
+list all include tests here
+####and again starting with ####
 
-and again beneath the line starting with ####
 
-####["site.page" link to testpage ]({{site.page}}test/testpage)
+
 
 ["site.page" link to testpage ]({{site.page}}test/testpage)
 
-####{%include test/link/page/testpage.md%}
+####["site.page" link to testpage ]({{site.page}}test/testpage)
 
 {%include test/link/page/testpage.md%}
+
+####{%include test/link/page/testpage.md%}
