@@ -27,3 +27,5 @@ js: index
 
 ### GitHub repository links
 [RFM2Pi]({% include site/git/rfm2pi.md %})
+
+{% include link/rfm2pi-git.md %}
