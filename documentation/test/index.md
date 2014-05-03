@@ -14,9 +14,9 @@ list all include tests here
 
 
 
-["site.page" link to testpage ]({{site.page}}test/testpage)
+[fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage)
 
-####["site.page" link to testpage ]({{site.page}}test/testpage)
+####[fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage)
 
 {%include test/link/page/testpage.md%}
 
@@ -25,3 +25,8 @@ list all include tests here
 *note - using a nested include (as above) creates an issue with formatting by inserting a line break before trailing parenthesis causing a broken link ref. only difference between the line above and the previous line is a 4hash prefix.
 
 
+%include test/link/page/testpage%}
+
+####{%include test/link/page/testpage%}
+
+*note - using a nested include (as above) creates an issue with formatting by inserting a line break before trailing parenthesis causing a broken link ref. only difference between the line above and the previous line is a 4hash prefix.
