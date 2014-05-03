@@ -21,4 +21,4 @@ js: index
 
 [RFM2Pi Git repository]({% include site/git/rfm2pi.md %})
 
-#### [avrdude-rpi Git repository]({% include site/git/avrdude-rpi.md %})
+#### .[avrdude-rpi Git repository]({% include site/git/avrdude-rpi.md %})
