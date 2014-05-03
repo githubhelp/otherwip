@@ -32,7 +32,6 @@ Create a RO image
 
 #### [Set up RaspberryPi hdd]({%include page/rpi-hdd%})
 
-#### ({%include link/rpi-hdd%})
 
 
 
