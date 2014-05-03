@@ -8,7 +8,7 @@ Maybe create a list to add new includes to and link from here
 
 example 
 
-    {{site.*page*}}/*folder*/*page*}}
+    {{site.page}}/folder/page}}
 
 usage syntax
 
@@ -21,7 +21,7 @@ usage syntax
 
 example 
 
-    http://*website-name.com/*
+    http://website-name.com/
 
 usage syntax
 
