@@ -26,3 +26,5 @@ js: index
 #### [rfm2pi page]({% include page/rfm2pi.md %})
 
 #### {% include link/page/rfm2pi.md %}
+
+#### [rfm2pi page]({{site.page}}install/raspberrypi/rfm2pi)
