@@ -8,7 +8,7 @@
 
 markdown: kramdown
 
-
+test: http://jekyllrb.com/
 # INTERNAL PATHS use {{site.???}}
 base:  /
 page:  /documentation/
