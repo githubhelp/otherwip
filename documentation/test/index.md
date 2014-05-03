@@ -21,3 +21,5 @@ list all include tests here
 {%include test/link/page/testpage.md%}
 
 ####{%include test/link/page/testpage.md%}
+
+*note - using a nested include (as above) creates an issue with formatting by inserting a line break before trailing parenthesis causing a broken link ref.
