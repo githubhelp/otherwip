@@ -10,5 +10,5 @@ title: EmonHub Home
 ----------------------------------
 ----------------------------------
 
-### This is the main landing page automatically created from /index.md
+## This is the main landing page automatically created from /index.md
 
