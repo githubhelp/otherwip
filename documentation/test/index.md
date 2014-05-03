@@ -42,9 +42,9 @@ list all include tests here
 
 ------------------
 
-[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/ "Google's Homepage" )
+[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/ "This is a test for the link hover over" )
 
-####[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/)
+####[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/ "This is a test for the link hover over" )
 
 ----------------------------
 
