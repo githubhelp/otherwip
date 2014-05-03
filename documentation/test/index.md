@@ -22,7 +22,7 @@ list all include tests here
 
 ------------------------------------
 
-###include page
+###include page 
 
 {%include test/link/page/testpage.md%}
 
@@ -39,3 +39,15 @@ list all include tests here
 ####{%include test/link/page/testpage%}
 
 *note - using a nested include (as above) creates an issue with formatting by inserting a line break before trailing parenthesis causing a broken link ref. only difference between the line above and the previous line is a 4hash prefix.
+
+------------------
+
+[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/)
+
+####[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/)
+
+----------------------------
+
+###include site (url)
+
+{%include test/link/site/url-site.md%}
