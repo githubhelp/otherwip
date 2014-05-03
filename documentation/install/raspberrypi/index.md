@@ -30,9 +30,9 @@ Create a RO image
 
 #### [Set up RaspberryPi hdd]({{site.page}}install/raspberrypi/hdd)
 
-#### [Set up RaspberryPi hdd]({%include page/rpi-hdd.md%})
+#### [Set up RaspberryPi hdd]({%include page/rpi-hdd%})
 
-#### ({%include link/rpi-hdd.md%})
+#### ({%include link/rpi-hdd%})
 
 
 
