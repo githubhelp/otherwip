@@ -2,6 +2,9 @@ Need some notes here about includes as site is reliant on them they are very imp
 
 Maybe create a list to add new includes to and link from here
 
+Full external urls should be used as
+
+
 #### include page/*name*
 
 "pages" are paths to this sites pages, used extensively throughout the page md's and includes, single point to edit every possible link (bar default.html) in one go if an internal page is moved, renamed or deleted.
