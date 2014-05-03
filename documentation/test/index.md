@@ -29,7 +29,7 @@ include page
 *note - using a nested include (as above) creates an issue with formatting by inserting a line break before trailing parenthesis causing a broken link ref. only difference between the line above and the previous line is a 4hash prefix.
 
 ------------------------------------------------------------------------------
-include page (without using .md)
+include page (without using .md extns on include files)
 
 {%include test/link/page/testpage%}
 
