@@ -52,4 +52,4 @@ list all include tests here
 
 {%include test/link/site/site-url.md%}
 
-#### {%include test/link/site/site-url.md%}
+#### {{include test/link/site/site-url.md}}
