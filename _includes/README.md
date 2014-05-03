@@ -29,17 +29,13 @@ usage syntax
 
 #### include link/*name*
 
+"links" are ready made commonly used "hyperlinks", they have a "page" or "site" include and already have the more frequently used displayed text set so a shorter syntax can be used
 
-THIS DOES NOT WORK INCLUDES 
+example mds
 
-
-"links" are ready made commonly used "hyperlinks" they already have the displayed text set and include a "page" or "site" 
-
-example md
-
-    [CUSTOM-DISPLAYED-TEXT]((% include site/name.md %))
+    [REGULARLY-DISPLAYED-TEXT]((% include site/name.md %))
+    [REGULARLY-DISPLAYED-TEXT]((% include page/name.md %))
 
 usage syntax
 
-
-    (% include link/name %)
+    (% include link/name.md %)
