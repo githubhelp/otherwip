@@ -2,4 +2,4 @@
 
     sudo apt-get --force-yes -y install emoncms
     
-*note - add any {% include link/int/pack-list.md %} to be installed at the same time to the command above*
+*note - add any {% include link/int/pack-list %} to be installed at the same time to the command above*
