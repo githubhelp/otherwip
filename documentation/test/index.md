@@ -15,7 +15,7 @@ list all include tests here
 --------------------------------------------------------
 
 
-[fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage "Google's Homepage")
+[fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage)
 
 ####[fully typed out "site.page" hyperlink to testpage ]({{site.page}}test/testpage)
 
@@ -42,7 +42,7 @@ list all include tests here
 
 ------------------
 
-[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/"Google's Homepage")
+[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/ "Google's Homepage" )
 
 ####[ fully typed out url hyperlink to testsite ](http://jekyllrb.com/)
 
