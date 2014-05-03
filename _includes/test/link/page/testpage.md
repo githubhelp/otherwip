@@ -1,1 +1,1 @@
-[link to testpage (via test/page/yml.md)]({%include test/page/yml.md%})
+[link to testpage (via {%include test/link/page/testpage.md%})]({%include test/page/yml.md%})
