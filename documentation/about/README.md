@@ -1,6 +1,6 @@
 history
 
-intension
+intention
 
 what it does
 
