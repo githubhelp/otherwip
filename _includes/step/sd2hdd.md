@@ -26,4 +26,4 @@ The Pi should now boot up to the HDD, now is a good time to perform an update an
     sudo apt-get update
     sudo apt-get upgrade -y
 
-The downloaded image's root partition is quite small and as a result it maybe necessary to {% include link/int/resize-hdd.md %}.
+The downloaded image's root partition is quite small and as a result it maybe necessary to {% include link/int/resize-hdd %}.
