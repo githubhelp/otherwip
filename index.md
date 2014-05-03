@@ -16,6 +16,7 @@ title: EmonHub Home
 
 {%include link/site/jek-url.md%}
 
-### [jekyll homepage (via _includes/site/jek/main.md + this displayed text]({%include site/jek/main.md%})
+### [jekyll homepage (via _includes/site/jek/main.md + this displayed text)]({%include site/jek/main.md%})
 
+[jekyll homepage (via _includes/site/jek/main.md + this displayed text)]({%include site/jek/main.md%})
 
