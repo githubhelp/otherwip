@@ -1,1 +1,1 @@
-{{site.page}}test.md
+{{site.page}}test/testpage.md
