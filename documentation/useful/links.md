@@ -10,7 +10,7 @@ js: index
 ---------------------------------
 
 
-#### {% include link/ext/shop.md %}
+#### {% include link/ext/shop %}
 
 
 
@@ -19,12 +19,12 @@ js: index
 
 
 
-[RFM2Pi on GitHub]({% include site/git/rfm2pi.md %})
+[RFM2Pi on GitHub]({% include site/git/rfm2pi %})
 
-[avrdude-rpi Git repository]({% include site/git/avrdude-rpi.md %})
+[avrdude-rpi Git repository]({% include site/git/avrdude-rpi %})
 
-#### [rfm2pi page]({% include page/rfm2pi.md %})
+#### [rfm2pi page]({% include page/rfm2pi %})
 
-#### {% include link/page/rfm2pi.md %}
+#### {% include link/page/rfm2pi %}
 
 #### [rfm2pi page]({{site.page}}install/raspberrypi/rfm2pi)
