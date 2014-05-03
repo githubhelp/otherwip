@@ -32,7 +32,7 @@ list all include tests here
 
 ------------------------------------------------------------------------------
 
-###include page (without using .md extns on include files)
+###include page ####(without using .md extensions on include files)
 
 {%include test/link/page/testpage%}
 
