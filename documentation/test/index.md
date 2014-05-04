@@ -8,7 +8,7 @@ js: index
 ---
 ---------------------------------------------
 
-list all include tests here
+list all include {%include test/link/site/site-url.md%} tests here
 ---------------------------
 
 ####and again starting with 4 hashes
