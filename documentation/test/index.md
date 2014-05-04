@@ -76,7 +76,11 @@ This is a line off text with {%include test/link/site/site-url.md%} nested into 
 
 ####[testlink.md]({%include testlink.md%})
 
+----------------------------
 
+
+
+{{ 'Shopify' | link_to: 'http://shopify.com' }}
 
 
 
