@@ -8,8 +8,7 @@ js: index
 ---
 ---------------------------------------------
 
-list all include {%include test/link/site/site-url.md%} tests here
----------------------------
+list all include tests here
 
 ####and again starting with 4 hashes
 
@@ -56,6 +55,4 @@ list all include {%include test/link/site/site-url.md%} tests here
 #### {%include test/link/site/site-url.md%}
 
 This is a line off text with {%include test/link/site/site-url.md%} nested into it.
--------------------------------------------------------------------------------------
 
-end
