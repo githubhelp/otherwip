@@ -7,7 +7,7 @@ layout: default
 js: index
 ---
 
-[oem gateway](http://openenergymonitor.org/emon/user/1531 #OEM Gateway)
+[oem gateway](http://openenergymonitor.org/emon/user/1531#OEMGateway)
 
 ---------------------------------------------
 
