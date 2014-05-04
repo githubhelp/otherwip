@@ -2,10 +2,15 @@ maybe expand on this list of places to look, with an FAQ and troubleshooting gui
 links to resolved issues on forum etc
 
 oem project website
+
 oem forum
+
 emoncms docs
+
 emon cms git
+
 emonhub git
+
 oem git
 
 
