@@ -1,1 +1,1 @@
-http://jekyllrb.com
+{{http://jekyllrb.com}}
