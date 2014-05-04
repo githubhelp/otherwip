@@ -12,6 +12,8 @@ Installing EmonHub to Raspberry Pi
 
 -----------------------------------
 
+#####Installing emonHub to the Raspberry Pi using the debian package installer really couldn't be any easier. This first part adds the address of the emonHub repository where the package is, to the Pi's sources list and only needs to be done once, after then any future installs or upgrades of debian packaged emonHub, emonCMS or their modules will use this same address.
+
 {% include step/wheezy2src.md %}
 
 ----
