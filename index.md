@@ -12,3 +12,5 @@ title: EmonHub Home
 
 ### This is the main landing page automatically created from /index.md
 
+
+# *emonHub links your inputs with emonCMS*
