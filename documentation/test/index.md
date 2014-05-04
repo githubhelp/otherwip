@@ -50,9 +50,9 @@ list all include tests here
 
 ###include site (url)
 
-[this is a hybrid link with a full typed display name and include tag}{%include test/site/site-url.md%}
+[this is a hybrid link with a full typed display name and include tag}({%include test/site/site-url.md%})
 
-#### [this is a hybrid link with a full typed display name and include tag}{%include test/site/site-url.md%}
+#### [this is a hybrid link with a full typed display name and include tag}({%include test/site/site-url.md%})
 
 ----------------------------
 
