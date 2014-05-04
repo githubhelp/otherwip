@@ -56,6 +56,8 @@ list all include tests here
 
 next uses yml not url
 
+[this is a hybrid link with a full typed display name and include tag]({%include test/site/site-yml.md%})
+
 #### [this is a hybrid link with a full typed display name and include tag]({%include test/site/site-yml.md%})
 
 ----------------------------
