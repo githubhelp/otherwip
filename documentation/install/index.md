@@ -27,14 +27,8 @@ Raspbian "wheezy" is the default operating software for the Raspberry Pi, it is 
 
 This method can also be used to install to other Debain derived platforms such as Ubuntu
 
-###[Debian Installation]({{site.page}}install/debian)
+###[Debian Package Installer]({{site.page}}install/debian)
 
 
-
-{% include link/ext/cms %}
-
-## so can i use [GitHub Repo]({{site.hub-git}}) inline?
 
 ## [EmonCMS Website]({{site.cms}})
-
-{% include link/ext/cms %}
