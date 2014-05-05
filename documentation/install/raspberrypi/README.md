@@ -26,11 +26,7 @@ go to http;//IP.ADD.OF.PI/emoncms and register a user and with any luck you're i
 
 In future when you use sudo apt-get update && sudo apt-get upgrade emoncms will get updated along with everything else.and as more modules become available in apt packaging you can install them with apt-get install as well but there maybe other steps also and that will be documented with each module.
 
-The second partition of your sdcard still holds a redundant copy of raspbian, you could copy just the boot partition to a smaller sdcard if you wanted to free up this sdcard or if not just leave it there and if ever you have an issue with your "hdd" version you can whip out the sdcard edit the /boot/cmdline.txt file on windows by changing "/dev/sda2" to "/sda/mmcblk0p2" and pop it back it the pi to boot into the sdcard image and explore / fix your hdd image.
 
-There are tidier methods to do this but this is by far the easiest way without another linux machine.
-
-Also as you mentioned xstart I thought I would mention that I also like to use windows remote desktop to raspberrypi's xrdp so I can have a remote "xstart" screen open on my windows PC. but I could never get it to work with any emonCMS image until I used this method. It is now fully functional.
 
 If you want/need to expand the partition on the hdd see Br1an's notes here http://openenergymonitor.org/emon/node/3889. 
 
