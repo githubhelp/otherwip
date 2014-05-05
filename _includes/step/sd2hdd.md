@@ -27,3 +27,5 @@ The Pi should now boot up to the HDD, now is a good time to perform an update an
     sudo apt-get upgrade -y
 
 The downloaded image's root partition is quite small and as a result it maybe necessary to {% include link/int/resize-hdd %}.
+
+The second partition of your sdcard still holds a redundant copy of raspbian, you could copy just the boot partition to a smaller sdcard if you wanted to free up this sdcard or if not just leave it there and if ever you have an issue with your "hdd" partition you can whip the sdcard out and on windows PC, edit the /boot/cmdline.txt file by changing "/dev/sda2" to "/sda/mmcblk0p2" using windows notepad, pop it back into the pi, boot into the sdcard image and explore / fix your broken "hdd" image.
