@@ -9,9 +9,9 @@ title: EmonHub Home
 ----------------------------------
 ----------------------------------
 
-### *emonHub links your inputs with emonCMS*
+### *emonHub connects your inputs with emonCMS*
+
+Currently the OpenEnergyMonitor projects most popular emonBase option is the Raspberry Pi,
 
 
 ![The OpenEnergyMonitor System](assets/images/OEM_system.png)
-
-![The OpenEnergyMonitor System]({{site.image}}OEM_system.png)
