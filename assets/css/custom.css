@@ -1,7 +1,8 @@
 footer-box{
-    display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; 
+    padding-left: auto;
+    padding-right: auto }
     
     
     /*media screen*/
