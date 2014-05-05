@@ -11,3 +11,6 @@ title: EmonHub Home
 
 ### *emonHub links your inputs with emonCMS*
 
+
+![The OpenEnergyMonitor System](/images/OEM_system.png)
+Format: ![Alt Text](url)
