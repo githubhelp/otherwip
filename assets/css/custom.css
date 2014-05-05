@@ -1,4 +1,11 @@
 /*media screen*/
+pre {
+    color: #f5f5f5;
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/*media screen*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #222;
     color: #D3C7C7;
