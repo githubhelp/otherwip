@@ -13,4 +13,3 @@ title: EmonHub Home
 
 
 ![The OpenEnergyMonitor System]({{site.image}}OEM_system.png)
-Format: ![Alt Text](url)
