@@ -6,7 +6,6 @@ title: EmonHub Home
 
 
 **Welcome to EmonHub Documentation**
-
 ----------------------------------
 ----------------------------------
 
