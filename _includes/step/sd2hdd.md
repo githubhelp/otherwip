@@ -30,5 +30,5 @@ The downloaded image's root partition is quite small and as a result it maybe ne
 
 Since the new installation was created from 2 identical images and uses the boot partition of the SD card to boot to the hdd's main partition, the small "boot" partition on the hdd can be ignored as it is only 56MB.
 
-The second or main partition of your sdcard also holds a redundant copy of raspbian, this can be quite useful as if you have an issue with your "hdd" partition and are unable to boot or access it, you can whip the sdcard out and on windows PC, edit the /boot/cmdline.txt file by changing "/dev/sda2" to "/sda/mmcblk0p2" using windows notepad, pop it back into the pi, boot into the sdcard image and explore / fix your broken "hdd" image.
+The second or main partition of your sdcard also holds a redundant copy of raspbian, this can be quite useful as if you have an issue with your "hdd" partition and are unable to boot or access it, you can whip the sdcard out and on windows PC using notepad, edit the /boot/cmdline.txt file by changing "/dev/sda2" to "/sda/mmcblk0p2", pop it back into the pi, boot onto the sdcard and explore / fix your broken "hdd" image.
 
