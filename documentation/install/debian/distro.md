@@ -19,10 +19,16 @@ The correct "distro" must be specified in the sources list to ensure the correct
 
     quantal
     
-To add the distro and repository url to the sources list use this line replacing <DISTRO> with the distro required.
+------------------------------------------------------------
+    
 
-    sudo sh -c "echo 'deb http://archive.emonhub.org <DISTRO> unstable' >> /etc/apt/sources.list"
+These details only need to be added one time and can be checked by opening the sources list with an editor
 
+    sudo nano /etc/apt/sources.list
+    
+There needs to be a line that specifies the distro and repository url, it should look like this line but with <DISTRO> replaced with the distro name
+
+    deb http://archive.emonhub.org <DISTRO> unstable
 
 
     
