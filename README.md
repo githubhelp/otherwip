@@ -1,4 +1,4 @@
-EmonHub Documentation Website
+[Visit EmonHub Documentation Website](https://github.com/otherWIP/otherwip.github.io)
 ===============
 ===============
 
