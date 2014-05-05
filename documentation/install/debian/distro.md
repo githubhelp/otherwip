@@ -11,9 +11,9 @@ js: index
 
 The correct "distro" must be specified in the sources list to ensure the correct package is installed by the debian installer.
 
-To add 
+To add the distro and repository url to the sources list use this line replacing <DISTRO> with the distro required.
 
-    sudo sh -c "echo 'deb http://archive.emonhub.org ***DISTRO*** unstable' >> /etc/apt/sources.list"
+    sudo sh -c "echo 'deb http://archive.emonhub.org <DISTRO> unstable' >> /etc/apt/sources.list"
 
 ##### Raspbian wheezy
 
