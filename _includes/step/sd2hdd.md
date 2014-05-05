@@ -32,5 +32,5 @@ Since the new installation was created from 2 identical images and uses the boot
 
 The second or main partition of your sdcard also holds a redundant copy of raspbian, this can be quite useful as if you have an issue with your "hdd" partition and are unable to boot or access it, you can whip the sdcard out and on windows PC using notepad, edit the /boot/cmdline.txt file by changing "/dev/sda2" to "/sda/mmcblk0p2", pop it back into the pi, boot onto the sdcard and explore / fix your broken "hdd" image.
 
-There are tidier methods to do this but this is by far the easiest and reliable way without another linux machine.
+There are tidier methods to do this but this is by far the easiest and most reliable way without another linux machine.
 
