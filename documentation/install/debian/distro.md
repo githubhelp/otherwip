@@ -7,13 +7,17 @@ layout: default
 js: index
 ---
 
-## Currently the following distro's are supported
+### Currently the following distro's are supported
 
-#### Raspbian wheezy
+The correct "distro" must be specified in the sources list to ensure the correct package is installed by the debian installer
+
+##### Raspbian wheezy
 
     wheezy
 
-#### Ubuntu quantal
+##### Ubuntu quantal
 
     quantal
+
+
     
