@@ -15,3 +15,6 @@ It has been used by the OpenEnergyMonitor project for sometime, mainly but not e
 
 
 http://openenergymonitor.blogspot.co.uk/2013/07/oem-gateway-by-jerome.html
+
+
+http://openenergymonitor.blogspot.co.uk/2013/07/oem-gateway-by-jerome.html
