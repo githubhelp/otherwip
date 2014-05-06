@@ -23,12 +23,24 @@ Starting with a fresh raspbian image
     
     sudo apt-get update
     sudo apt-get -y upgrade
+    sudo cp /etc/default/rcS /etc/default/rcS.orig
     sudo sh -c "echo 'RAMTMP=yes' >> /etc/default/rcS"
     sudo mv /etc/fstab /etc/fstab.orig
-    sudo sh -c "echo 'tmpfs           /tmp            tmpfs   nodev,nosuid,size=30M,mode=1777    0    0' >> /etc/fstab"
-    sudo sh -c "echo 'tmpfs           /var/log        tmpfs   nodev,nosuid,size=30M,mode=1777    0    0' >> /etc/fstab"
-    sudo cat /etc/fstab.orig >> /etc/fstab
-    sudo rm /etc/mtab
+    sudo sh -c "echo 'tmpfs           /tmp            tmpfs   nodev,nosuid,size=30M,mode=1777       0    0' >> /etc/fstab"
+    sudo sh -c "echo 'tmpfs           /var/log        tmpfs   nodev,nosuid,size=30M,mode=1777       0    0' >> /etc/fstab"
+    sudo sh -c "echo 'proc            /proc           proc    defaults                              0    0' >> /etc/fstab"
+    sudo sh -c "echo '/dev/mmcblk0p1  /boot           vfat    defaults                              0    2' >> /etc/fstab"
+    sudo sh -c "echo '/dev/mmcblk0p2  /               ext4    defaults,ro,noatime,errors=remount-ro 0    1' >> /etc/fstab"
+                sudo sh -c "cat /etc/fstab.orig > /etc/fstab"
+    sudo mv /etc/mtab /etc/mtab.orig
     sudo ln -s /proc/self/mounts /etc/mtab
+    
+    
+    
     sudo mount -o remount,ro /dev/mmcblk0p2  /
+    
     sudo mount -o remount,rw /dev/mmcblk0p2  /
+
+    
+
+    
