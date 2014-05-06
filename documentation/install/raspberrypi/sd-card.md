@@ -24,7 +24,7 @@ add line
 
     RAMTMP=yes
 
-    sudo nano /etc/fstab
+sudo nano /etc/fstab
 
     tmpfs           /tmp            tmpfs   nodev,nosuid,size=30M,mode=1777    0    0
     tmpfs           /var/log        tmpfs   nodev,nosuid,size=30M,mode=1777    0    0
