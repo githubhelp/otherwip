@@ -1,6 +1,5 @@
 ---
-title: EmonHub Dispatcher
-tags: 
+title: EmonHub Dispatchers
 categories: 
 published: True
 layout: default
