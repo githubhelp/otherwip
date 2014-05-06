@@ -43,5 +43,12 @@ Starting with a fresh raspbian image
     sudo mount -o remount,rw /dev/mmcblk0p2  /
 
     
-
+    sudo mount -o remount,rw /dev/mmcblk0p2  /
+    sudo mv /etc/default/rcS.orig /etc/default/rcS
+    sudo mv /etc/fstab.orig /etc/fstab
+    sudo mv /etc/mtab.orig /etc/mtab
+    sudo shutdown -r now
+    
+    
+    
     
