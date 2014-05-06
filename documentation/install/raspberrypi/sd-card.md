@@ -23,8 +23,11 @@ Steps from: http://www.raspberrypi.org/forum/viewtopic.php?f=29&t=22596
 add line 
 
     RAMTMP=yes
+    
+    
 
-sudo nano /etc/fstab
+    sudo nano /etc/fstab
+    
 
     tmpfs           /tmp            tmpfs   nodev,nosuid,size=30M,mode=1777    0    0
     tmpfs           /var/log        tmpfs   nodev,nosuid,size=30M,mode=1777    0    0
