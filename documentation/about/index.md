@@ -21,3 +21,6 @@ http://openenergymonitor.blogspot.co.uk/2013/07/oem-gateway-by-jerome.html
 
 
 http://openenergymonitor.blogspot.co.uk/2014/01/oem-gateway-serial-port-emoncms-link.html?q=oem+gateway
+
+
+http://openenergymonitor.blogspot.co.uk/2013/09/raspberrypi-sd-cards-hdd-gateway.html?q=oem+gateway
