@@ -19,7 +19,7 @@ Configure Raspbian to run in read-only mode for increased stability (optional bu
 Steps from: http://www.raspberrypi.org/forum/viewtopic.php?f=29&t=22596
 
 
-Starting with a fresh raspbian image
+Starting with a fresh Raspbian image run these commands
     
     sudo apt-get update
     sudo apt-get -y upgrade
@@ -36,12 +36,15 @@ Starting with a fresh raspbian image
     sudo ln -s /proc/self/mounts /etc/mtab
     sudo shutdown -r now
     
-    
+Once restarted the Pi will be running in Read Only mode, to temporarily switch to Read and Write mode use
     
     sudo mount -o remount,ro /dev/mmcblk0p2  /
+
+and then to switch back to Read Only use
     
     sudo mount -o remount,rw /dev/mmcblk0p2  /
 
+To undo these changes and revert to the original set up run
     
     sudo mount -o remount,rw /dev/mmcblk0p2  /
     sudo mv /etc/default/rcS.orig /etc/default/rcS
