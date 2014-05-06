@@ -25,7 +25,6 @@ add line
     RAMTMP=yes
     
     
-
     sudo nano /etc/fstab
     
 
