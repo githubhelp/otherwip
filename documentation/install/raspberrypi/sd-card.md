@@ -38,11 +38,11 @@ Starting with a fresh Raspbian image run these commands
     
 Once restarted the Pi will be running in Read Only mode, to temporarily switch to Read and Write mode use
     
-    sudo mount -o remount,ro /dev/mmcblk0p2  /
+    sudo mount -o remount,rw /dev/mmcblk0p2  /
 
 and then to switch back to Read Only use
     
-    sudo mount -o remount,rw /dev/mmcblk0p2  /
+    sudo mount -o remount,ro /dev/mmcblk0p2  /
 
 To undo these changes and revert to the original set up run
     
