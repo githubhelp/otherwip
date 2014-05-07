@@ -37,7 +37,7 @@ Starting with a fresh Raspbian image run these commands
     
 The Pi will now run in Read-Only mode from the next restart.
 
-Before restarting create 2 shortcut commands to switch between read-only and write access.
+Before restarting create two shortcut commands to switch between read-only and write access modes.
 
 Firstly " rpi-rw " will be the command to unlock the filesystem for editing, run
 
@@ -56,6 +56,10 @@ save and exit using `ctrl-x` -> `y` -> `enter` and then make this executable, ru
     sudo chmod +x  /usr/bin/rpi-rw
 
 Next " rpi-ro " will be the command to lock the filesytem down again, run
+
+    sudo nano /usr/bin/rpi-ro
+    
+and add the following to the blank file that opens
 
     #!/bin/sh
     sudo mount -o remount,ro /dev/mmcblk0p1  /
