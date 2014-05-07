@@ -14,9 +14,9 @@ pre {
 }
 
 /*media screen*/
-a {
+/*a {
     color: #0099ff;
-}
+}*/
 
 /*media screen*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
