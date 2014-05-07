@@ -34,15 +34,44 @@ Starting with a fresh Raspbian image run these commands
     sudo sh -c "echo ' ' >> /tmp/fstab"
     sudo mv /etc/mtab /etc/mtab.orig
     sudo ln -s /proc/self/mounts /etc/mtab
+    
+The Pi will now run in Read-Only mode from the next restart.
+
+Before restarting create 2 shortcut commands to switch between read-only and write access.
+
+Firstly " rpi-rw " will be the command to unlock the filesystem for editing, run
+
+    sudo nano /usr/bin/rpi-rw
+    
+and add the following to the blank file that opens
+
+    #!/bin/sh
+    sudo mount -o remount,rw /dev/mmcblk0p1  /
+    sudo mount -o remount,rw /dev/mmcblk0p2  /
+    echo "Filesystem is unlocked - Write access"
+    echo "type ' rpi-ro ' to lock"
+    
+save and exit using `ctrl-x` -> `y` -> `enter` and then make this executable, run
+
+    sudo chmod +x  /usr/bin/rpi-rw
+
+Next " rpi-ro " will be the command to lock the filesytem down again, run
+
+    #!/bin/sh
+    sudo mount -o remount,ro /dev/mmcblk0p1  /
+    sudo mount -o remount,ro /dev/mmcblk0p2  /
+    echo "Filesystem is locked - Read Only access"
+    echo "type ' rpi-rw ' to unlock"
+    
+save and exit using `ctrl-x` -> `y` -> `enter` and then make this executable, run
+
+    sudo chmod +x  /usr/bin/rpi-ro
+    
+Lastly reboot for changes to take effect (note - if serial uart access required make these changes before restarting)
+
     sudo shutdown -r now
     
-Once restarted the Pi will be running in Read Only mode, to temporarily switch to Read and Write mode use
-    
-    sudo mount -o remount,rw /dev/mmcblk0p2  /
-
-and then to switch back to Read Only use
-    
-    sudo mount -o remount,ro /dev/mmcblk0p2  /
+After restarting you must remember to use " rpi-rw " before making any changes and then use " rpi-ro " afterwards to lock the filesystem down again, the only time this will lock automatically is at boot.
 
 To undo these changes and revert to the original set up run
     
@@ -50,6 +79,8 @@ To undo these changes and revert to the original set up run
     sudo mv /etc/default/rcS.orig /etc/default/rcS
     sudo mv /etc/fstab.orig /etc/fstab
     sudo mv /etc/mtab.orig /etc/mtab
+    sudo rm /usr/bin/rpi-ro
+    sudo rm /usr/bin/rpi-rw
     sudo shutdown -r now
     
     
