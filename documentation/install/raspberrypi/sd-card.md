@@ -51,7 +51,7 @@ and add the following to the blank file that opens
     echo "Filesystem is unlocked - Write access"
     echo "type ' rpi-ro ' to lock"
     
-save and exit using `ctrl-x` -> `y` -> `enter` and then make this executable, run
+save and exit using `ctrl-x` -> `y` -> `enter` and then to make this executable run
 
     sudo chmod +x  /usr/bin/rpi-rw
 
@@ -67,7 +67,7 @@ and add the following to the blank file that opens
     echo "Filesystem is locked - Read Only access"
     echo "type ' rpi-rw ' to unlock"
     
-save and exit using `ctrl-x` -> `y` -> `enter` and then make this executable, run
+save and exit using `ctrl-x` -> `y` -> `enter` and then to make this executable run
 
     sudo chmod +x  /usr/bin/rpi-ro
     
