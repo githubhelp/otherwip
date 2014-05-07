@@ -71,7 +71,7 @@ save and exit using `ctrl-x` -> `y` -> `enter` and then to make this executable 
 
     sudo chmod +x  /usr/bin/rpi-ro
     
-Lastly reboot for changes to take effect (note - if serial uart access required make these changes before restarting)
+Lastly reboot for changes to take effect (*note - if  {% include link/int/rpi-uart %} access required make these changes before restarting*)
 
     sudo shutdown -r now
     
