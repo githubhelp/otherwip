@@ -75,7 +75,7 @@ Lastly reboot for changes to take effect (note - if serial uart access required 
 
     sudo shutdown -r now
     
-After restarting you must remember to use " rpi-rw " before making any changes and then use " rpi-ro " afterwards to lock the filesystem down again, the only time this will lock automatically is at boot.
+####After restarting you must remember to use " rpi-rw " before making any changes and then to use " rpi-ro " afterwards to lock the filesystem down again, the only time this will lock automatically is at start-up.
 
 To undo these changes and revert to the original set up run
     
