@@ -19,10 +19,13 @@ Configure Raspbian to run in read-only mode for increased stability (optional bu
 Steps from: http://www.raspberrypi.org/forum/viewtopic.php?f=29&t=22596
 
 
-Starting with a fresh Raspbian image run these commands
+Start by updating the downloaded Raspbian image
     
     sudo apt-get update
     sudo apt-get -y upgrade
+    
+Then run these commands to make changes to filesystem  
+    
     sudo cp /etc/default/rcS /etc/default/rcS.orig
     sudo sh -c "echo 'RAMTMP=yes' >> /etc/default/rcS"
     sudo mv /etc/fstab /etc/fstab.orig
