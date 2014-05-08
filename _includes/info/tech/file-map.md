@@ -4,16 +4,13 @@
     |      |      |
     |      |      |--- /emonhub
     |      |
-    |      |
     |      |--- /default
     |      |      |
     |      |      |--- /emonhub
     |      |
-    |      |
     |      |--- /emmonhub
     |             |
     |             |--- /emonhub.conf
-    |
     |
     |--- /usr
     |      |
@@ -30,7 +27,6 @@
     |                    |--- /emonhub_interface.py
     |                    |
     |                    |--- /emonhub_listener.py
-    |
     |
     |--- /var
            |
