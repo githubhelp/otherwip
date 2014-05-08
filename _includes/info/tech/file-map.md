@@ -1,7 +1,7 @@
 
     |--- /etc
     |      |--- /default
-    |      |      |--- /emonhub
+    |      |      |--- /emonhub                         /etc/default/emonhub     configuration for the init.d service script
     |      |
     |      |--- /emmonhub
     |      |      |--- /emonhub.conf
