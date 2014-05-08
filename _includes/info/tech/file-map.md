@@ -1,13 +1,13 @@
 
     |--- /etc
     |      |--- /default
-    |      |      |--- /emonhub                             /etc/default/emonhub         configuration for the init.d service script
+    |      |      |--- /emonhub
     |      |
     |      |--- /emmonhub
     |      |      |--- /emonhub.conf
     |      |
     |      |--- /init.d
-    |             |--- /emonhub                            /etc/init.d/emonhub           init.d service script (controls the emonhub daemon)
+    |             |--- /emonhub
     |
     |--- /usr
     |      |--- /share
