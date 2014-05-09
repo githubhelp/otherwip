@@ -1,7 +1,7 @@
 ---
 title: testpage
-tags: 
-categories: 
+tags:
+categories:
 published: True
 layout: default
 js: index
@@ -17,7 +17,7 @@ js: index
 
 **[testlink.md]({%include testlink.md%})**
 
-####[testlink.md]({%include testlink.md%})
+#### [testlink.md]({% include testlink.md %})
 
 ##[testlink.md]({%include testlink.md%})
 
@@ -25,7 +25,7 @@ js: index
 ============================================
 
     [testlink.md]({%include testlink.md%})
-    
+
 >[testlink.md]({%include testlink.md%})
 
 `[testlink.md]({%include testlink.md%})`
